@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 
 <html>
+    
     <head>
         <meta charset="utf-8"/>
         <title>Path Generator</title>
         <link rel="icon" type="image" href="images/icon.png">
         <link rel="stylesheet" href="index.css">
+        <style>
+            body {
+              font-family: Verdana, sans-serif;
+            }
+            </style>
     </head>
 
     <body oncontextmenu="return false;">
@@ -27,13 +33,13 @@
             <output class="text" id="multiplierVal">50</output>
             <label for="multiplierSlider" class="text">Turn Multiplier</label>
             
-            <button type="button" id="downloadPathBtn">Download Path Data</button>
+            <button type="button" id="downloadPathBtn"> Download Path Data</button>
             <input type="file" id="uploadPathBtn"></input>
             <label for="uploadPathBtn" id="uploadPathLabel">Upload Path Data</label>
         </div>
 
         <div class="modeContainer">
-            <button type="button" id="modeBtn">mode</button>
+            <button type="button" id="modeBtn">Mode</button>
         </div>
 
         <div class="debugContainer">
